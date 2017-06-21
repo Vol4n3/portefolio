@@ -21,10 +21,30 @@ header{
 header nav a{
     font-weight: 400;
 }
-header nav ul{
-    border: 1px solid #4d4d4d;
-}
 
+header h1{
+    color: #4d4d4d;
+    background: -webkit-linear-gradient(bottom left, #E2E2E2 0%, #4d4d4d 39%, #4d4d4d 62%, #E2E2E2 100%);
+    background: -moz-linear-gradient(bottom left, #E2E2E2 0%, #4d4d4d 39%, #4d4d4d 62%, #E2E2E2 100%);
+    background: -o-linear-gradient(bottom left, #E2E2E2 0%, #4d4d4d 39%, #4d4d4d 62%, #E2E2E2 100%);
+    background: linear-gradient(to top right, #E2E2E2 0%, #4d4d4d 39%, #4d4d4d 62%, #E2E2E2 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#E2E2E2', endColorstr='#E2E2E2',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */    
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: invert 10s infinite linear;
+    display: inline-block;
+}
+@keyframes invert{
+    0% {
+        -webkit-filter: invert(0%);
+    }
+    50% {
+        -webkit-filter: invert(100%);
+    }
+    100% {
+        -webkit-filter: invert(0%);
+    }
+}
 
 /*NAV EFFECT CUT*/
 .nav-effect-cut > li{
