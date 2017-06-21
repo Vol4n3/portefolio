@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Muli Regular'), local('Muli-Regular'), url(font/muli.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+*{
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Muli', sans-serif;
+    font-size: 1.1em;
+}
+body{
+    color: #4d4d4d;
+}
+header{
+    background-color: #E2E2E2;
+}
+header nav a{
+    font-weight: 400;
+}
+header nav ul{
+    border: 1px solid #4d4d4d;
+}
+
+
+/*NAV EFFECT CUT*/
+.nav-effect-cut > li{
+    position: relative;
+}
+.nav-effect-cut > li:before {
+    content: "";
+    transition: width 0.2s ease-in-out;
+    display: inline-block;
+    position: absolute;
+    width: 0%;
+    height:1px;
+    background-color: black;
+    top:55%;
+    left: 0;
+}
+
+.nav-effect-cut > li:hover:before {
+    width: 100%;
+}
+.nav-effect-cut > li.drop:before{
+    left: inherit;
+    right: 0;
+}
+.nav-effect-cut > li > a:first-child{
+    opacity: 0;
+}
+.nav-effect-cut > li .top,.nav-effect-cut > li .bottom {
+    position: absolute;
+    left: 5px;
+    display: inline-block;
+    overflow: hidden;
+    pointer-events: none;
+    transition: left 0.2s ease-in-out;
+    transition-delay: 0.2s;
+}
+.nav-effect-cut > li > .top{
+    top: 5px;
+    height: 39%;
+
+}
+.nav-effect-cut > li:hover > .top{
+    left : 7px;
+}
+.nav-effect-cut > li .bottom{
+    bottom: 5px;
+    height: 29%;
+}
+.nav-effect-cut > li:hover .bottom{
+    left : 3px;
+}
+.nav-effect-cut > li .bottom a{
+    position: relative;
+    bottom: 128%;
+}
