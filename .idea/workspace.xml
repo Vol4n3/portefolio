@@ -2,7 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20471536-1ac7-4917-b99a-f5d37da5bc9e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/public/css/background/main.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/public/css/font/muli.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/public/img/header_autumn_japan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/public/img/header_snow_forest.jpg" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/debug.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulpfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package-lock.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/class/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/public/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/public/css/css_tools.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/public/css/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/public/css/normalize.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/public/img/icon/Logo.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/public/img/icon/close.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/public/img/icon/download.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/public/img/icon/home.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/public/img/icon/link.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/public/img/icon/locate.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/public/img/icon/logo2hdpi.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/public/img/icon/logohdpi.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/public/img/icon/mail.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/public/img/icon/more.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/public/img/icon/next.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/public/img/icon/params.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/public/img/icon/play.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/public/img/icon/profile.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/public/img/icon/refresh.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/public/img/icon/sound.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/public/img/icon/star.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/public/img/icon/stickman.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/public/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/public/js/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/public/js/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/public/js/main.js.map" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/css/background/main.jpg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/css/css_tools.css" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/css/font/muli.woff2" afterPath="" />
@@ -343,12 +379,12 @@
       <workItem from="1498325864228" duration="603000" />
       <workItem from="1498999721778" duration="1303000" />
       <workItem from="1501518907435" duration="1116000" />
-      <workItem from="1501521890776" duration="1037000" />
+      <workItem from="1501521890776" duration="1089000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23195000" />
+    <option name="totallyTimeSpent" value="23247000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -361,9 +397,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1828" height="1084" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17044167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17044167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
